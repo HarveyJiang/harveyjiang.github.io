@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: https://harveyjiang.github.io/
 date_format: "ordinal"
 title: Harvey Jiang
 subtitle: "记录"
@@ -17,7 +17,7 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: Harvey Jiang
-organization: Person.
+organization: Person
 organization_url: /
 location: Chengdu, China
 email: harvey.jiang.cn@gmail.com
@@ -111,5 +111,4 @@ twitter_username: harveyjiang
 #      Datas       #
 # ---------------- #
 skill_software_keywords: [Java, C++, Python, Design Patterns]
-skill_mobile_app_keywords: [Android, Reverse Engineering]
 skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]
