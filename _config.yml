@@ -1,11 +1,11 @@
 # Site settings
-title: Harvey
+title: Harvey1111
 SEOTitle: Harvey
 header-img: img/home-bg.jpg
 email: harveyjiang@foxmail.com
-description: "个人博客"
+description: "个人博客111111"
 keyword: "Harvey"
-url: "https://harveyjiang.github.io"              # your host, for absolute URL
+url: "harveyjiang.github.io"              # your host, for absolute URL
 baseurl: "/"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
