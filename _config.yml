@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: harveyjiang@foxmail.com
 description: "个人博客111111"
 keyword: "Harvey"
-url: "harveyjiang.github.io"              # your host, for absolute URL
-baseurl: "/"         # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://harveyjiang.github.io"              # your host, for absolute URL
+baseurl: "https://harveyjiang.github.io/"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
