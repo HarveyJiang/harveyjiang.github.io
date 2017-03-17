@@ -1,12 +1,12 @@
 # Site settings
-title: Harvey1111
+title: Harvey
 SEOTitle: Harvey
 header-img: img/home-bg.jpg
 email: harveyjiang@foxmail.com
-description: "个人博客111111"
+description: "个人博客"
 keyword: "Harvey"
 url: "https://harveyjiang.github.io"              # your host, for absolute URL
-baseurl: "https://harveyjiang.github.io/"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "https://harveyjiang.github.io"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
@@ -43,16 +43,16 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: Harvey
+duoshuo_username: 
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+duoshuo_share:                      # set to false if you want to use Comment without Sharing
 
 
 
 
 # Analytics settings
 # Google Analytics
-ga_track_id: ''            # Format: UA-xxxxxx-xx
+ga_track_id:           # Format: UA-xxxxxx-xx
 ga_domain: auto
 
 
