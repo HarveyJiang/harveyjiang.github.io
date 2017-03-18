@@ -23,13 +23,7 @@ header-img: "img/about-bg.jpg"
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!-- 归档列表 -->
-            {% for post in site.posts %}
-                <div style="color:greenyellow">{{post.title}}</div>
-            {% endfor %}
-
-            
-            <script>
+              <script>
                 var years = {};
                 site.posts.sort('date').reverse().forEach(function(post){
                     var year = post.date.year()
@@ -39,32 +33,16 @@ header-img: "img/about-bg.jpg"
                     years[year].push(post);
                 });
                 </script>
+            <!-- 归档列表 -->
+            {% for post in years %}
+                <div style="color:gray">{{post}}</div>
+            {% endfor %}
+
+            
+          
            
                 
-            {% for year in years   %}
-              
-                    <div class="one-tag-list">
-                        <span class="fa fa-calendar-times-o listing-seperator" id="{{year}}">
-                    <span class="tag-text">{{year}}</span>
-                        </span>
-                        <ul>
-                {% for post years[year]  %}
-                                <li>
-                                    {{ post.date.format('MM-DD') }}
-                                        <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                                        <a href="{{ site.baseurl }}{{ post.path }}" style="color: #0085a1">
-                                            <span>
-                            {{ post.title || "Untitled"}}
-                        </span>
-                                        </a>
-                                        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                                </li>
-                                {% endfor %}
-
-                        </ul>
-                    </div>
-                   
-                  {% endfor %}
+           
 
             
         </div>
