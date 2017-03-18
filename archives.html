@@ -25,7 +25,8 @@ header-img: "img/about-bg.jpg"
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               <script>
                 var years = {};
-                site.posts.sort('date').reverse().forEach(function(post){
+                var posts = "{{site.posts}}";
+                posts.sort('date').reverse().forEach(function(post){
                     var year = post.date.year()
                     if(years[year]===undefined){
                         years[year] = [];
