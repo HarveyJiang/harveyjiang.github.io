@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     post
 title:      "亚小姐"
 subtitle:   "Keynote: JavaScript Modularization Journey"
 date:       2017-03-17
