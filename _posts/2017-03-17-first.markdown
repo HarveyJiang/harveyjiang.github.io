@@ -1,17 +1,17 @@
 ---
 layout:     post
-title:      "亚小姐"
-subtitle:   "Keynote: JavaScript Modularization Journey"
+title:      "First"
+subtitle:   "The begin"
 date:       2017-03-17
 author:     "Harvey"
-category:   "私人"
+category:   "person"
 weather:    "晴"
-header-img: "img/post-bg-js-version.jpg"
+header-img: 
 tags:
-    - 亚
-    - 张亚
 ---
 
-亚姐，你好！
+##开始
 
-呵呵呵呵呵呵
+一个月之前,就动手搭建,苦于一直没有找到满意的主题,该主题也下载有些时日了,昨天终于动手实践.自己略懂代码,有些地方按照自己的想法修改了.以后就开始在这里记录.当然Markdown语法也要慢慢熟悉.
+
+反正别人也不会访问到这里,你说呢?
