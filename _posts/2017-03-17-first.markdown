@@ -1,8 +1,8 @@
 ---
-layout:     keynote
+layout:     default
 title:      "Example Post using Keynote Layout"
 subtitle:   "Keynote: JavaScript Modularization Journey"
-date:       2917-03-17
+date:       2017-03-17
 author:     "Harvey"
 header-img: "img/post-bg-js-version.jpg"
 tags:
