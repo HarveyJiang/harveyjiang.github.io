@@ -8,7 +8,7 @@ header-img: "img/post-bg-js-version.jpg"
 tags:
     - 前端开发
     - JavaScript
-
+---
 
 > 下滑这里查看更多内容
 
