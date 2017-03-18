@@ -41,14 +41,14 @@ header-img: "img/about-bg.jpg"
                 </script>
            
                 
-            {% Object.keys(years).reverse().forEach(function(year){  %}
+            {% for year in years   %}
               
                     <div class="one-tag-list">
                         <span class="fa fa-calendar-times-o listing-seperator" id="{{year}}">
                     <span class="tag-text">{{year}}</span>
                         </span>
                         <ul>
-                {% years[year].map(function(post){  %}
+                {% for post years[year]  %}
                                 <li>
                                     {{ post.date.format('MM-DD') }}
                                         <i class="fa fa-angle-double-right" aria-hidden="true"></i>
@@ -59,12 +59,12 @@ header-img: "img/about-bg.jpg"
                                         </a>
                                         <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
                                 </li>
-                                {% }) %}
+                                {% endfor %}
 
                         </ul>
                     </div>
                    
-                    {% }) %}
+                  {% endfor %}
 
             
         </div>
