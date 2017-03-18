@@ -1,6 +1,6 @@
 ---
 layout:     default
-title:      "Example Post using Keynote Layout"
+title:      "前端开发"
 subtitle:   "Keynote: JavaScript Modularization Journey"
 date:       2017-03-17
 author:     "Harvey"

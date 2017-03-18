@@ -15,7 +15,7 @@
 }
 .sidebar-container h5 {
   color: #808080;
-  padding-bottom: 1em 0 1em 0;
+  padding-bottom: 1em;
 }
 .sidebar-container h5 a {
   color: #808080 !important;
@@ -26,14 +26,14 @@
 }
 .sidebar-container a:hover,
 .sidebar-container a:active {
-  color: #0085a1 !important;
+  color: #0085A1 !important;
 }
 .sidebar-container .tags a {
   border-color: #bfbfbf;
 }
 .sidebar-container .tags a:hover,
 .sidebar-container .tags a:active {
-  border-color: #0085a1;
+  border-color: #0085A1;
 }
 .sidebar-container .short-about img {
   width: 80%;
@@ -85,7 +85,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #0085A1;
 }
 a img:hover,
 a img:focus {
@@ -149,7 +149,7 @@ pre code {
 }
 .post-container a:hover,
 .post-container a:focus {
-  color: #0085a1;
+  color: #0085A1;
 }
 .post-container h1,
 .post-container h2,
@@ -353,14 +353,14 @@ pre code {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085a1;
+    color: #0085A1;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #404040;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085a1;
+    color: #0085A1;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -372,6 +372,7 @@ pre code {
   }
 }
 .intro-header {
+  height: 217px;
   background: no-repeat center center;
   background-color: #808080;
   background-attachment: scroll;
@@ -390,23 +391,19 @@ pre code {
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
-.intro-header .page-heading {
-  padding: 85px 0 55px;
+.intro-header .page-heading,
+.intro-header .site-heading {
+  height: 217px;
+  padding: 35px 0 35px;
   color: white;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
-  .intro-header .page-heading {
-    padding: 150px 0;
-  }
-}
-.intro-header .site-heading {
-  padding: 95px 0 70px;
-}
-@media only screen and (min-width: 768px) {
+  .intro-header .page-heading,
   .intro-header .site-heading {
-    padding: 150px 0;
+    height: 217px;
+    padding: 0 0;
   }
 }
 .intro-header .site-heading,
@@ -486,7 +483,7 @@ pre code {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #0085A1;
 }
 .post-preview > a > .post-title {
   font-size: 21px;
@@ -514,7 +511,7 @@ pre code {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #0085A1;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -536,7 +533,7 @@ pre code {
   color: #a3a3a3;
 }
 .post-content-preview:hover {
-  color: #0085a1;
+  color: #0085A1;
 }
 @media only screen and (min-width: 768px) {
   .post-content-preview {
@@ -576,14 +573,14 @@ footer .copyright a {
 }
 footer .copyright a:hover,
 footer .copyright a:focus {
-  color: #0085a1;
+  color: #0085A1;
 }
 .floating-label-form-group {
   font-size: 14px;
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eee;
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -616,17 +613,17 @@ footer .copyright a:focus {
 }
 .floating-label-form-group::not(:first-child) {
   padding-left: 14px;
-  border-left: 1px solid #eeeeee;
+  border-left: 1px solid #eee;
 }
 .floating-label-form-group-with-value label {
   top: 0;
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #0085a1;
+  color: #0085A1;
 }
 form .row:first-child .floating-label-form-group {
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #eee;
 }
 .btn {
   /* Hux learn from
@@ -648,8 +645,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #0085A1;
+  border: 1px solid #0085A1;
   color: white;
 }
 .pager {
@@ -685,8 +682,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #0085A1;
+  border: 1px solid #0085A1;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -699,12 +696,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #0085A1;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #0085A1;
 }
 img::selection {
   color: white;
@@ -715,7 +712,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #0085a1;
+  webkit-tap-highlight-color: #0085A1;
 }
 /* Hux add tags support */
 .tags {
