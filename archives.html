@@ -23,19 +23,6 @@ header-img: "img/about-bg.jpg"
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <script>
-                var years = {};
-                var posts = "{{site.posts}}";
-                posts.sort('date').reverse().forEach(function (post) {
-                    var year = post.date.year()
-                    if (years[year] === undefined) {
-                        years[year] = [];
-                    }
-                    years[year].push(post);
-                });
-                console.log('posts', posts);
-            </script>
-
             <section id="archive">
                 <h3>This year's posts</h3>
                 {%for post in site.posts %} {% unless post.next %}
