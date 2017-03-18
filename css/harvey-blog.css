@@ -771,6 +771,9 @@ body {
     padding: 55px 0;
   }
 }
+#tag-heading .page-title {
+  font-size: 100px;
+}
 #tag_cloud {
   margin: 20px 0 15px 0;
 }
