@@ -15,7 +15,7 @@ tags:
 [参考2](https://help.ghost.org/hc/en-us/articles/224410728-Markdown-Guide)
 
 | Result	        | Markdown  
-|----               |----
+| ----:             |:----
 |Bold	            |**text**  
 |Emphasize	        |*text*
 |Link	            |[title](http://)	
@@ -32,5 +32,13 @@ tags:
 |Line break         |Add two spaces to the end of the line
 |Quotes             |> hello
 |footer [1]:hello   |[hello][1]
+
+
+> ### markdown Table说明       
+>| 左对齐标题 | 右对齐标题 | 居中对齐标题 |     
+| :------| ------: | :------: |     
+| 短文本 | 中等文本 | 稍微长一点的文本 |       
+| 稍微长一点的文本 | 短文本 | 中等文本 |       
+
 
 [1]:http://google.com
