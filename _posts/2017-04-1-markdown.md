@@ -1,14 +1,14 @@
 ---
 layout:     post
-title:      "Markdown入门"
-subtitle:   
+title:      Markdown入门
 date:       2017-04-1
-author:     "Harvey"
-category:   "record"
-weather:    "晴"
+author:     Harvey
+category:   record
+weather:    晴
 header-img: 
 tags:
 ---
+
 # Markdown 简易入门指南
 
 [教程参考](http://www.markdowntutorial.com/lesson/2/)
