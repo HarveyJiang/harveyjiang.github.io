@@ -11,39 +11,26 @@ tags:
 
 # Markdown 简易入门指南   
 
-[教程参考](http://www.markdowntutorial.com/lesson/2/)
+[参考1](http://www.markdowntutorial.com/lesson/2/)
+[参考2](https://help.ghost.org/hc/en-us/articles/224410728-Markdown-Guide)
 
-
-# 我是标题  
-## 我是二号标题   
-
-_我是斜体哦_
-
-> 我是块哦
-
-> 我们是一块的哦
-
-* 苹果
-* 橘子
-    - 苹果
-    - 橘子        
-1 苹果  
-2 橘子
-
-*hello*
-
-[我是超链接](http://i'm_a_link "a link")
-
-![我是图片](http://octodex.github.com/images/octdrey-catburn.jpg0)
-
->引用下面的  
->[go Google][1]
-
-
-```
-这里是代码块,使用Tab也可以的哦
-```
-    这里是代码块，我用的Table
-    不信你试试
+| Result	        | Markdown  
+|----               |----
+|Bold	            |**text**  
+|Emphasize	        |*text*
+|Link	            |[title](http://)	
+|Inline Code        |`code` or enter Tab	
+|Image	            |![alt](http://)	
+|link Image         |[![Image Alt Text](/path/to/image)](path/to/linked/page)
+|List	            |*/-/number/ item
+|Blockquote	        |> quote	
+|H1	                |# Heading	
+|H2	                |## Heading	
+|HR                 |-----
+|Highlight          |==text==
+|Paragraphs         |Line space between paragraphs
+|Line break         |Add two spaces to the end of the line
+|Quotes             |> hello
+|footer [1]:hello   |[hello][1]
 
 [1]:http://google.com
