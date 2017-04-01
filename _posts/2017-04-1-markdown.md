@@ -9,13 +9,13 @@ header-img:
 tags:
 ---
 
-# Markdown 简易入门指南
+# Markdown 简易入门指南   
 
 [教程参考](http://www.markdowntutorial.com/lesson/2/)
 
 
-# 我是标题
-## 我是二号标题
+# 我是标题  
+## 我是二号标题   
 
 _我是斜体哦_
 
@@ -26,7 +26,7 @@ _我是斜体哦_
 * 苹果
 * 橘子
     - 苹果
-    - 橘子
+    - 橘子        
 1 苹果  
 2 橘子
 
