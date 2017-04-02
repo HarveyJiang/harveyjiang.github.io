@@ -8,6 +8,16 @@ keyword: "Harvey"
 url: "https://harveyjiang.github.io"              # your host, for absolute URL
 baseurl: "https://harveyjiang.github.io"         # for example, '/blog' if your blog hosted on 'host/blog'
 
+# defaults
+defaults:
+    -
+    scope:
+        path:   
+        type:   post
+    values:
+        layout: post
+        author: harvey
+
 # SNS settings
 RSS: false
 weibo_username: Harvey_CN
@@ -34,7 +44,8 @@ gems: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-
+  toc_levels:   1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
 
 
 # Disqus settings
