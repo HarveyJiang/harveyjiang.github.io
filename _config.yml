@@ -44,10 +44,10 @@ gems: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-  toc_levels:   1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-    auto_ids:   true
-    auto_id_prefix:   'id-'
+#   toc_levels:   1..6
+#   smart_quotes:   lsquo,rsquo,ldquo,rdquo
+#     auto_ids:   true
+#     auto_id_prefix:   'id-'
 
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
