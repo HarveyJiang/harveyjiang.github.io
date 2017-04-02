@@ -15,7 +15,8 @@ tags: 手册
 [参考1](http://www.markdowntutorial.com/lesson/2/)        
 [参考2](https://help.ghost.org/hc/en-us/articles/224410728-Markdown-Guide)      
 [参考3](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)  
-=======
+
+------------
 
 |Result                 |Markdown  
 | ----:                 |:----
