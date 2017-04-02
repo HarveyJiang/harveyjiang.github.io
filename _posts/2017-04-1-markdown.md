@@ -87,7 +87,10 @@ supported)
 > 
 > 给出一些例子代码：
 > 
->     return shell_exec("echo $input | $markdown_script");
+>     
+```js
+return shell_exec("echo $input | $markdown_script");
+```
   
 质能守恒方程可以用一个很简洁的方程式 $E=mc^2$ 来表达。   
 $$\sum_{i=1}^n a_i=0$$
