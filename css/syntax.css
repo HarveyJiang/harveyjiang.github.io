@@ -28,9 +28,10 @@
  */
 
 .highlight pre, pre, .highlight .hll {
-  background-color: #f8f8f8;
+  background-color: #f6f8fa;
   border: 0px solid #f6f8fa;
-  /*padding: 6px 10px;*/
+  padding: 16px;
+  margin: 10px 0;
   border-radius: 3px;
 }
 
