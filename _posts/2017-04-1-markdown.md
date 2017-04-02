@@ -9,6 +9,7 @@ header-img:
 tags: 手册
 ---
 
+[TOC]
 <span id ="top"></span>
 
 # Markdown 简易入门指南   
@@ -35,11 +36,11 @@ tags: 手册
 |链接	                    |\[Title](http://) [markdown](http://http://www.markdowntutorial.com/)	
 |图片	                    |\!\[Image Alt Text](http://image) ![icon]()
 |图片链接                   |\[\!\[Image Alt Text](/path/to/image)](http://) [![alt]()]()
-|页内跳转                   |\[跳转](#jump)   [Top](#top) 
+|跳转                     |\[跳转](#jump)   [Top](#top) 
+|锚点                     |\[顶部]{#Top}        [footer](#footer)
 |转义                     |\
-
-[TOC]
->## Markdown Table说明      
+|超链接                    |<> <http://baidu.com>
+## Markdown Table说明      
 |Markdown|Result
 |---:|:---
 |**---:**|为右对齐   
@@ -73,6 +74,42 @@ supported
 unordered or ordered list
 supported)
 
+
+
+第一阶标题
+=======
+第二阶标题显示效果有下划线
+---
+
+> 1.   这是第一行列表项。
+> 2.   这是第二行列表项。
+> 
+> 给出一些例子代码：
+> 
+>     return shell_exec("echo $input | $markdown_script");
+
+        
+质能守恒方程可以用一个很简洁的方程式 $E=mc^2$ 来表达。   
+$$\sum_{i=1}^n a_i=0$$
+$$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$
+$$\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}$$
+
+flow
+st=>start: Start:>https://www.zybuluo.com
+io=>inputoutput: verification
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+sub=>subroutine: Your Subroutine
+e=>end
+st->io->op->cond
+cond(yes)->e
+cond(no)->sub->io
+
+C语言里的函数 `scanf()` 怎么使用？
+
+footer {#footer}
+
 脚注\[1]:http://google.com       
 
 [1]:http://google.com
+    
