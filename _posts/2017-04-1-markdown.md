@@ -15,8 +15,8 @@ tags: 手册
 [参考1](http://www.markdowntutorial.com/lesson/2/)        
 [参考2](https://help.ghost.org/hc/en-us/articles/224410728-Markdown-Guide)      
 [参考3](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)  
-===
-  
+=======
+
 |Result                 |Markdown  
 | ----:                 |:----
 |粗体                     |\*\*TEXT*\*  /  \_\_TEXT_\_ **粗体**
@@ -38,13 +38,16 @@ tags: 手册
 |转义                     |\
 |超链接                    |<> <http://baidu.com>
 
-## Markdown Table说明      
-|Markdown|Result
-|---:|:---
-|**---:**|为右对齐   
-|**:---**|为左对齐      
-|**:---:**|为居中对齐        
-|**----**|默认居中对齐   
+
+## Markdown Table说明   
+--------
+
+|Markdown   |Result
+|---:       |:---
+|**---:**   |为右对齐   
+|**:---**   |为左对齐      
+|**:---:**  |为居中对齐        
+|**----**   |默认居中对齐   
 
 ### 引用
 As Grace Hopper said:
