@@ -9,16 +9,14 @@ header-img:
 tags: 手册
 ---
 
-[TOC]
 <span id ="top"></span>
-
 # Markdown 简易入门指南   
 ---
-      
 [参考1](http://www.markdowntutorial.com/lesson/2/)        
-[参考2](https://help.ghost.org/hc/en-us/articles/224410728-Markdown-Guide)        
-[参考3](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)        
-
+[参考2](https://help.ghost.org/hc/en-us/articles/224410728-Markdown-Guide)      
+[参考3](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)  
+===
+  
 |Result                 |Markdown  
 | ----:                 |:----
 |粗体                     |\*\*TEXT*\*  /  \_\_TEXT_\_ **粗体**
@@ -36,10 +34,10 @@ tags: 手册
 |链接	                    |\[Title](http://) [markdown](http://http://www.markdowntutorial.com/)	
 |图片	                    |\!\[Image Alt Text](http://image) ![icon]()
 |图片链接                   |\[\!\[Image Alt Text](/path/to/image)](http://) [![alt]()]()
-|跳转                     |\[跳转](#jump)   [Top](#top) 
-|锚点                     |\[顶部]{#Top}        [footer](#footer)
+|锚点                     |\[跳转](#jump)   [Top](#top)  [footer](#footer)   
 |转义                     |\
 |超链接                    |<> <http://baidu.com>
+
 ## Markdown Table说明      
 |Markdown|Result
 |---:|:---
@@ -47,12 +45,13 @@ tags: 手册
 |**:---**|为左对齐      
 |**:---:**|为居中对齐        
 |**----**|默认居中对齐   
-     
+
 ### 引用
 As Grace Hopper said:
 > I’ve always been more interested
 >> in the future than in the past.
 >> thanks all.
+
 
 ### GitHub supports emoji!
 :+1:        
@@ -63,7 +62,7 @@ As Grace Hopper said:
 :metal:     
 :octocat: 
 
-### TASK LISTS
+### GitHub supports TASK LISTS
 
 - [x] this is a complete item
 - [ ] this is an incomplete item
@@ -73,8 +72,6 @@ supported
 - [x] list syntax required (any
 unordered or ordered list
 supported)
-
-
 
 第一阶标题
 =======
@@ -87,8 +84,7 @@ supported)
 > 给出一些例子代码：
 > 
 >     return shell_exec("echo $input | $markdown_script");
-
-        
+  
 质能守恒方程可以用一个很简洁的方程式 $E=mc^2$ 来表达。   
 $$\sum_{i=1}^n a_i=0$$
 $$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$
@@ -107,9 +103,9 @@ cond(no)->sub->io
 
 C语言里的函数 `scanf()` 怎么使用？
 
-footer {#footer}
 
 脚注\[1]:http://google.com       
 
 [1]:http://google.com
     
+<span id ="footer"></span>
