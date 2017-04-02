@@ -7,7 +7,7 @@ description: "个人博客"
 keyword: "Harvey"
 url: "https://harveyjiang.github.io"              # your host, for absolute URL
 baseurl: "https://harveyjiang.github.io"         # for example, '/blog' if your blog hosted on 'host/blog'
-author: "哈维"
+author: "Harvey"
 # defaults
 # defaults:
 #     -
