@@ -138,7 +138,7 @@ pre,
 .table-responsive {
   -webkit-overflow-scrolling: touch;
 }
-.table-responsive table tr:nth-child(odd) {
+.table-responsive table tbody tr:nth-child(odd) {
   background: #f6f8fa !important;
 }
 pre code {
