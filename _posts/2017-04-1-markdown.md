@@ -9,7 +9,6 @@ header-img:
 tags: 手册
 ---
 
-[TOC]
 <span id ="top"></span>
 # Markdown 简易入门指南   
 ---
@@ -21,24 +20,24 @@ tags: 手册
 
 |Result                 |Markdown  
 | ----:                 |:----
-|粗体                     |\*\*TEXT*\*  /  \_\_TEXT_\_ **粗体**
+|粗体                   |\*\*TEXT*\*  /  \_\_TEXT_\_ **粗体**
 |斜体 	                |\*TEXT\* *斜体*
-|删除                     |\~~删除线~~ ~~删除~~
-|换行                     |---  /  *** 
-|列表	                    |* / - / Number / Item
+|删除                   |\~~删除线~~ ~~删除~~
+|换行                   |---  /  *** 
+|列表	                |* / - / Number / Item
 |H1	                    |# Heading	
 |H2	                    |## Heading	
-|引用	                    |> quote and >>	quote
-|段落间距                   |Enter空行
-|换行                     |末尾两个空格
-|脚注                     |\[Google]\[1] [Google][1]
-|插入代码                   |\`CODE\` OR \```CODE\``` OR Tab  `CODE`
-|链接	                    |\[Title](http://) [markdown](http://http://www.markdowntutorial.com/)	
-|图片	                    |\!\[Image Alt Text](http://image) ![icon]()
-|图片链接                   |\[\!\[Image Alt Text](/path/to/image)](http://) [![alt]()]()
-|锚点                     |\[跳转](#jump)   [Top](#top)  [footer](#footer)   
-|转义                     |\
-|超链接                    |<> <http://baidu.com>
+|引用	                |> quote and >>	quote
+|段落间距               |Enter空行
+|换行                   |末尾两个空格
+|脚注                   |\[Google]\[1] [Google][1]
+|插入代码               |\`CODE\` OR \```CODE\``` OR Tab  `CODE`
+|链接	                |\[Title](http://) [markdown](http://http://www.markdowntutorial.com/)	
+|图片	                |\!\[Image Alt Text](http://image) ![icon]()
+|图片链接               |\[\!\[Image Alt Text](/path/to/image)](http://) [![alt]()]()
+|锚点                   |\[跳转](#jump)   [Top](#top)  [footer](#footer)   
+|转义                   |\
+|超链接                 |<> <http://baidu.com>
 
 
 ## Markdown Table说明   
@@ -56,7 +55,7 @@ As Grace Hopper said:
 > I’ve always been more interested
 >> in the future than in the past.
 >> thanks all.
-
+>> 
 
 ### GitHub supports emoji!
 :+1:        
@@ -79,7 +78,7 @@ unordered or ordered list
 supported)
 
 第一阶标题
-=======
+=======git
 第二阶标题显示效果有下划线
 ---
 
@@ -92,28 +91,13 @@ supported)
 ```js
 return shell_exec("echo $input | $markdown_script");
 ```
-  
-质能守恒方程可以用一个很简洁的方程式 $E=mc^2$ 来表达。   
-$$\sum_{i=1}^n a_i=0$$
-$$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$
-$$\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}$$
-
-flow
-st=>start: Start:>https://www.zybuluo.com
-io=>inputoutput: verification
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-sub=>subroutine: Your Subroutine
-e=>end
-st->io->op->cond
-cond(yes)->e
-cond(no)->sub->io
 
 C语言里的函数 `scanf()` 怎么使用？
 
-
-脚注\[1]:http://google.com       
+脚注\[1]:http://google.com    
 
 [1]:http://google.com
-    
 <span id ="footer"></span>
+<!-- MarkdownTOC -->
+
+<!-- /MarkdownTOC -->
