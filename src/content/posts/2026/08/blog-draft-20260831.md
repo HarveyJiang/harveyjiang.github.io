@@ -19,7 +19,7 @@ model:
   default: dynamic/smart_router
   provider: cloudflare
   base_url:
-    https://gateway.ai.cloudflare.com/v1/2dd2de9c034a4bf86b8f59bb11d69c0b/model-gateway/compat
+    https://gateway.ai.cloudflare.com/v1/{uid}/{gateway_name}/compat
   api_key: ${HERMES_CLOUDFLARE_GATEWAY_API_KEY}
   fallback_model:
     provider: openrouter
